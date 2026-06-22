@@ -1,0 +1,18 @@
+{
+  "algorithm": "dinics",
+  "directed": true,
+  "source": "s",
+  "sink": "t",
+  "nodes": ["s", "v1", "v2", "v3", "v4", "t"],
+  "edges": [
+    {"u": "s",  "v": "v1", "capacity": 16},
+    {"u": "s",  "v": "v2", "capacity": 13},
+    {"u": "v1", "v": "v3", "capacity": 12},
+    {"u": "v2", "v": "v1", "capacity": 4},
+    {"u": "v3", "v": "v2", "capacity": 9},
+    {"u": "v2", "v": "v4", "capacity": 14},
+    {"u": "v4", "v": "v3", "capacity": 7},
+    {"u": "v3", "v": "t",  "capacity": 20},
+    {"u": "v4", "v": "t",  "capacity": 4}
+  ]
+}

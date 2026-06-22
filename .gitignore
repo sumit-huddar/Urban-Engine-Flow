@@ -1,0 +1,10 @@
+# Build artifacts
+bin/
+*.o
+*.out
+*.dSYM/
+
+# Editor / OS noise
+.DS_Store
+.vscode/
+.idea/
