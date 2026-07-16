@@ -1,8 +1,12 @@
-# Build artifacts
-bin/
+# Compiled engine binary
+engine
 *.o
 *.out
 *.dSYM/
+
+# Python
+__pycache__/
+*.pyc
 
 # Editor / OS noise
 .DS_Store
