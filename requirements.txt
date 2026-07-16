@@ -1,0 +1,5 @@
+# Python dependencies for the Urban Flow AI Engine layer.
+# The C++ engine (engine.cpp) has no Python deps; these are for the
+# OSM conversion (osm_to_engine.py / test.py) and the LLM agent (agent.py).
+osmnx           # download + model real OSM road networks
+google-genai    # Gemini tool-calling client (agent.py)
