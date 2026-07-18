@@ -30,6 +30,15 @@ LANDMARKS = {
     "hall 6":     (26.50534996924456, 80.2346067634557),
     "hall 12":    (26.510800755672246, 80.2274508869843),
     "mt canteen": (26.512411033250377, 80.23045501385931),
+    # Coordinates below geocoded from OpenStreetMap (ox.geocode) and
+    # verified to fall inside the 2000 m download radius.
+    "hall 1":     (26.511213, 80.232813),
+    "hall 2":     (26.510808, 80.230211),
+    "hall 3":     (26.508658, 80.229923),
+    "hall 4":     (26.511547, 80.233168),
+    "hall 5":     (26.509551, 80.227883),
+    "lhc":        (26.511278, 80.232987),  # Lecture Hall Complex
+    "airstrip":   (26.519668, 80.233173),
     # add more as needed, all keys must be lowercase
 }
 
