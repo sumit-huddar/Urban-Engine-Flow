@@ -33,7 +33,11 @@ LANDMARKS = {
     # add more as needed, all keys must be lowercase
 }
 
-MODEL_NAME = "gemini-2.5-flash"
+# Use the "latest flash" alias rather than a pinned version so the agent
+# keeps working when Google retires a specific model (e.g. gemini-2.5-flash
+# became unavailable to new users). Pin to a dated model if you need
+# reproducibility.
+MODEL_NAME = "gemini-flash-latest"
 
 # ------------------------------------------------------------------
 # TOOL DEFINITIONS -- using types.FunctionDeclaration (free tier)
